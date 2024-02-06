@@ -1,3 +1,5 @@
+/* ----- DEFAULT TAGS ----- */
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +9,92 @@
 main {
     background-color: #00a5fb;
 }
+
+a {
+    color: #f1f1f1;
+    text-shadow: #407a88b9 -3px 2px;
+    display: inline-block;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+a:link,
+a:visited {
+    color: #f1f1f1;
+}
+
+body {
+    margin: 0;
+    background: #00a5fb;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+/* TRAILER PAGE */
+iframe {
+    aspect-ratio: 16/9;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/* CAREERS FORM */
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Gagalin';
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #04679c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Gagalin';
+}
+
+input[type=submit]:hover {
+    background-color: #00a5fb;
+}
+
+form {
+    width: 50%;
+}
+
+.myFooter {
+    padding: 10px 30px;
+    background: #093B47;
+    border-top: solid 5px #33CF1E;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    font-family: 'Gagalin', sans-serif;
+    color: #f1f1f1;
+    text-align: center;
+    margin-right: 10vh;
+}
+
+/* ------ CUSTOM TAGS -----*/
 
 .robo-header {
     padding: 10px 30px;
@@ -26,8 +114,6 @@ main {
     font-family: 'Adumu', sans-serif;
 }
 
-
-
 .container {
     display: flex;
     flex-direction: row;
@@ -40,7 +126,6 @@ main {
 
 .card-container {
     border: 1px solid white;
-
 }
 
 .row {
@@ -49,9 +134,6 @@ main {
     align-items: center;
 }
 
-
-/* Sticky */
-
 .RobofrogLogo {
     filter: drop-shadow(#00000094 5px 5px);
     height: 12vh;
@@ -59,27 +141,18 @@ main {
     margin-top: -5%;
 }
 
-.RobofrogLogo:hover{
+.RobofrogLogo:hover {
     animation-name: shake;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     cursor: pointer;
 }
+
 .DeliveryLogo {
     filter: drop-shadow(#f1f1f156 -3px 2px);
     padding-bottom: 2vh;
     width: 50%;
     margin-left: 30%;
-}
-
-/* Header Links */
-a {
-    color: #f1f1f1;
-    text-shadow: #407a88b9 -3px 2px;
-    display:inline-block;
-    color: #f1f1f1;
-    text-decoration: none;
-    font-size: 150%;
 }
 
 
@@ -88,8 +161,6 @@ a {
     padding: 10px;
 }
 
-
-
 .navItems:hover {
     filter: brightness(130%);
     animation-name: shake;
@@ -97,6 +168,116 @@ a {
     animation-iteration-count: infinite;
     cursor: pointer;
 }
+
+.slogan {
+    color: #f1f1f1;
+    background: #00a5fb;
+    text-align: center;
+    text-shadow: #093b47b9 -6px 5px;
+    padding-top: 20%;
+    letter-spacing: 5px;
+    font-family: 'Adumu';
+    font-size: 500%;
+}
+
+.splashArt {
+    background: #00a5fb;
+}
+
+.aboutTitleLogo {
+    width: 30%;
+    filter: drop-shadow(#22222256 -3px 2px);
+    display: block;
+    margin: auto;
+}
+
+.textoAbout {
+    font-family: 'Gagalin', sans-serif;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 300%;
+    padding-top: 10%;
+    margin-left: 10%;
+    width: 60%;
+    filter: drop-shadow(#22222256 -3px 2px);
+
+}
+
+.autoImg {
+    width: 40%;
+}
+
+.logoStore {
+    width: 20%;
+    margin-left: 30%;
+    filter: drop-shadow(#22222256 -3px 2px);
+}
+
+.logoStoreNintendo {
+    width: 40%;
+    margin-left: 10%;
+    filter: drop-shadow(#22222256 -3px 2px);
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+
+.formBG {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 2PX;
+
+}
+
+.formLabel {
+    font-family: 'Gagalin';
+
+}
+
+.linesDeco {
+    width: 30%;
+    filter: drop-shadow(#00000094 5px 5px);
+    margin-left: 30vh;
+}
+
+/* Footer */
+
+.containerRs {
+    display: flex;
+    width: 10%;
+}
+
+.columnRs {
+    width: 10%;
+    flex: 10%;
+    padding: 5px;
+    column-gap: 10%;
+}
+
+.row#rsIconGroup {
+    width: 50%;
+    align-items: center;
+    padding-bottom: 1vh;
+
+}
+
+article#rsIcon {
+    transition-duration: .5s;
+    filter: brightness(75%);
+}
+
+article#rsIcon:hover {
+    filter: brightness(100%);
+    transform: rotateY(360deg);
+}
+
+/* ----- ANIMATIONS ----- */
 
 @keyframes shake {
     0% {
@@ -142,215 +323,4 @@ a {
     100% {
         transform: translate(1px, -2px) rotate(-1deg);
     }
-}
-
-a:link,
-a:visited {
-    color: #f1f1f1;
-}
-
-/* BODY */
-body {
-    margin: 0;
-    background: #00a5fb;
-    overflow-x: hidden;
-}
-
-.slogan {
-    color: #f1f1f1;
-    background: #00a5fb;
-    text-align: center;
-    text-shadow: #093b47b9 -6px 5px;
-    padding-top: 20%;
-    letter-spacing: 5px;
-    font-family: 'Adumu';
-    font-size: 500%;
-}
-
-.splashArt {
-    background: #00a5fb;
-}
-
-/*ABOUT PAGE*/
-
-.aboutTitleLogo {
-    width: 30%;
-    filter: drop-shadow(#22222256 -3px 2px);
-    display: block;
-    margin: auto;
-}
-
-.textoAbout {
-    font-family: 'Gagalin', sans-serif;
-    color: #f1f1f1;
-    text-align: center;
-    font-size: 300%;
-    padding-top: 10%;
-    margin-left: 10%;
-    width: 60%;
-    filter: drop-shadow(#22222256 -3px 2px);
-
-}
-
-.autoImg {
-    width: 40%;
-}
-
-/*STORE PAGE*/
-.logoStore {
-    width: 20%;
-    margin-left: 30%;
-    filter: drop-shadow(#22222256 -3px 2px);
-}
-
-.logoStoreNintendo {
-    width: 40%;
-    margin-left: 10%;
-    filter: drop-shadow(#22222256 -3px 2px);
-}
-
-
-
-
-a:link,
-a:visited {
-    color: #f1f1f1;
-}
-
-
-.column {
-    flex: 50%;
-    padding: 5px;
-}
-
-img {
-    width: 100%;
-}
-
-
-.center {
-    justify-content: center;
-
-}
-
-.imgContainer {
-    float: left;
-}
-
-/*TRAILER PAGE*/
-
-iframe {
-    aspect-ratio: 16/9;
-    width: 80%;
-    height: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-/*CAREERS FORM*/
-input[type=text],
-select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: 'Gagalin';
-}
-
-input[type=submit] {
-    width: 100%;
-    background-color: #04679c;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'Gagalin';
-}
-
-input[type=submit]:hover {
-    background-color: #00a5fb;
-}
-
-.formBG {
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    display: grid;
-    place-items: center;
-    width: 50%;
-    margin-left: 25%;
-    padding-top: 2PX;
-
-}
-
-.formLabel {
-    font-family: 'Gagalin';
-
-}
-
-form {
-    width: 50%;
-}
-
-/* FOOTER */
-
-
-footer {
-    background: #093B47;
-    padding: 16px;
-    color: #f1f1f1;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.myFooter {
-    padding-top: 10px;
-    background: #33CF1E;
-}
-
-.linesDeco {
-    width: 7%;
-}
-
-
-
-
-h3 {
-    font-family: 'Roboto', sans-serif;
-}
-
-.columnRs {
-    width: 10%;
-    flex: 10%;
-    padding: 5px;
-    column-gap: 10%;
-}
-
-img {
-    width: 100%;
-}
-
-.containerRs {
-    display: flex;
-    width: 10%;
-}
-
-.rsIconsIg {
-    width: 80%;
-
-}
-
-.rsIconsTt {
-    width: 60%;
-}
-
-.rsIconsYt {
-    width: 80%;
 }
