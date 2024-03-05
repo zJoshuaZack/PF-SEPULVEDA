@@ -78,6 +78,7 @@ form {
     width: 50%;
 }
 
+
 .myFooter {
     padding: 10px 30px;
     background: #093B47;
@@ -96,15 +97,30 @@ form {
 
 /* ------ CUSTOM TAGS -----*/
 
+
+
 .robo-header {
-    padding: 10px 30px;
-    background: #093B47;
+    /*padding: 10px 30px;*/
+    background: transparent;
+    margin-top: -2.5%;
     padding-bottom: 10px;
-    border-bottom: 5px solid #33CF1E;
     z-index: 1000;
     position: fixed;
     width: 100%;
+
 }
+
+.active-header {
+    background: rgba(44, 44, 44, 0.1);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+    height: 20%;
+
+}
+
 
 .navTab {
     text-align: end;
@@ -171,15 +187,155 @@ form {
 
 .slogan {
     color: #f1f1f1;
-    background: #00a5fb;
+    background: transparent;
     text-align: center;
     text-shadow: #093b47b9 -6px 5px;
     padding-top: 15%;
     letter-spacing: 5px;
     font-family: 'Adumu';
     font-size: 400%;
+    margin-left: -20%;
 }
 
+.warriorTitle {
+    color: #f1f1f1;
+    text-shadow: #093b47b9 -6px 5px;
+    letter-spacing: 5px;
+    text-align: right;
+    font-family: 'Adumu';
+    font-size: 300%;
+    padding-bottom: 90%;
+    margin-right: 20%;
+}
+
+.warrior {
+    color: #f1f1f1;
+    text-shadow: #093b47b9 -6px 5px;
+    letter-spacing: 5px;
+    text-align: left;
+    font-family: 'Adumu';
+    font-size: 250%;
+    margin-top: -80%;
+}
+
+#wobble {
+    /*Wobble Anim*/
+    animation-name: wobble;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 200ms;
+}
+
+.fondo-cielo {
+    background-image: url('../assets/images/cielo.jpg');
+    margin-top: -10%;
+}
+
+.under_index {
+    background-image: url('../assets/images/under_index.png');
+    margin-top: -20%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+
+}
+
+.under_index2 {
+    background-color: #879D3C;
+    margin-top: -21%;
+    padding-bottom: 2%;
+    /* border: 1px solid cyan; */
+}
+
+.carousel{
+    /* border: 2px solid red; */
+}
+
+#carRow{
+    /* border: 3px solid plum; */
+}
+
+#warriorHolder{
+    /* border: 2px solid blue; */
+}
+.intro {
+    font-family: 'Adumu', sans-serif;
+    color: #f3f3f3;
+    text-align: justify;
+    filter: drop-shadow(#0f0f0fb6 -3px 2px);
+    margin-top: -10%;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.carIndex {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    width: 20%;
+    height: 20%;
+    margin-top: -20%;
+
+
+}
+
+.my-button1 {
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: yellow;
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.my-button2 {
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: yellow;
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.wave {
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background: rgb(57, 27, 112);
+    transform: scale(1, 1);
+}
+
+.wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    right: -25%;
+    top: 20px;
+}
+
+.wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(57, 27, 112);
+    left: -25%;
+    top: -240px;
+    clip-path: ellipse(100% 15% at -15% 100%);
+}
 
 .aboutTitleLogo {
     width: 40%;
@@ -237,6 +393,7 @@ form {
     margin-left: 30vh;
 }
 
+
 /* Footer */
 
 .row#rsIconGroup {
@@ -257,6 +414,22 @@ article#rsIcon:hover {
 }
 
 /* ----- ANIMATIONS ----- */
+
+@keyframes wobble {
+
+    0%,
+    100% {
+        transform: translateY(0px)
+    }
+
+    25% {
+        transform: translateY(-3px)
+    }
+
+    75% {
+        transform: translateY(3px)
+    }
+}
 
 @keyframes shake {
     0% {
