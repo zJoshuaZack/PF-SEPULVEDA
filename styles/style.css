@@ -167,6 +167,7 @@ img {
   filter: brightness(100%);
   color: #f1f1f1;
   padding: 10px;
+  text-decoration: none;
 }
 
 .navItems:hover {
@@ -216,26 +217,17 @@ article #rsIcon:hover {
   margin-left: 30vh;
 }
 
-.my-button1 {
-  border-radius: 5px;
-  border: 1px solid #000;
+.defaultButton {
+  border: none;
   padding: 10px 20px;
-  background: yellow;
-  font-size: 2em;
+  background: rgba(0, 0, 0, 0.2549019608);
   cursor: pointer;
   margin-top: 10%;
-  margin-left: 20%;
-}
-
-.my-button2 {
-  border-radius: 5px;
-  border: 1px solid #000;
-  padding: 10px 20px;
-  background: yellow;
+  margin: 4px 20px;
+  color: #f1f1f1;
+  text-shadow: rgba(9, 59, 71, 0.7254901961) -6px 5px;
   font-size: 2em;
-  cursor: pointer;
-  margin-top: 10%;
-  margin-left: 20%;
+  font-family: "Adumu";
 }
 
 .fondo-cielo {

@@ -1,0 +1,12 @@
+.defaultButton {
+    border: none;
+    padding: 10px 20px;
+    background: $logoShadow;
+    cursor: pointer;
+    margin-top: 10%;
+    margin: 4px 20px;
+    color: $whiteColor;
+    text-shadow: $textShadow -6px 5px;
+    font-size: 2em;
+    font-family: $defaultFont;
+}
