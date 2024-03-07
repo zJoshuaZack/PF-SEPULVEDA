@@ -1,0 +1,44 @@
+/* Footer */
+
+.myFooter {
+    padding: 10px 30px;
+    background: #093B47;
+    border-top: solid 5px #33CF1E;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.row {
+    #rsIconGroup {
+        width: 50%;
+        align-items: center;
+        padding-bottom: 1vh;
+    }
+}
+
+
+article {
+    #rsIcon {
+        transition-duration: .5s;
+        filter: brightness(75%);
+    }
+
+    #rsIcon:hover {
+        filter: brightness(100%);
+        transform: rotateY(360deg);
+    }
+}
+
+.copyright {
+    font-family: 'Adumu', sans-serif;
+    color: $whiteColor;
+    text-align: center;
+    margin-right: 10vh;
+}
+
+.linesDeco {
+    width: 30%;
+    filter: drop-shadow(#00000094 5px 5px);
+    margin-left: 30vh;
+}

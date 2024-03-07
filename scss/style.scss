@@ -1,0 +1,17 @@
+//Base
+@import'base/vars';
+@import'base/reset';
+@import'base/utils';
+@import'base/animations';
+
+//Components
+@import'components/header';
+@import'components/navbar';
+@import'components/footer';
+
+//Layouts
+@import'layout/index';
+@import'layout/about';
+@import'layout/careers';
+@import'layout/store';
+@import'layout/trailer';

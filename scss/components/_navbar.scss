@@ -1,0 +1,20 @@
+.navTab {
+    text-align: end;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: $whiteColor;
+    font-family: 'Adumu', sans-serif;
+}
+
+.navItems {
+    filter: brightness(100%);
+    padding: 10px;
+}
+
+.navItems:hover {
+    filter: brightness(130%);
+    animation-name: shake;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}

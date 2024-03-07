@@ -246,6 +246,17 @@ form {
     /* border: 1px solid cyan; */
 }
 
+.carousel{
+    /* border: 2px solid red; */
+}
+
+#carRow{
+    /* border: 3px solid plum; */
+}
+
+#warriorHolder{
+    /* border: 2px solid blue; */
+}
 .intro {
     font-family: 'Adumu', sans-serif;
     color: #f3f3f3;

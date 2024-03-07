@@ -1,0 +1,15 @@
+.aboutTitleLogo {
+    width: 40%;
+    filter: drop-shadow(#22222256 -5px 5px);
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.textoAbout {
+    font-family: 'Shantell Sans', sans-serif;
+    color: $whiteColor;
+    text-align: center;
+    font-size: 400%;
+    filter: drop-shadow(#22222256 -3px 2px);
+}

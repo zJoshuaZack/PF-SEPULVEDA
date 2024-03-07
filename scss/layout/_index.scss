@@ -1,0 +1,72 @@
+.my-button1 {
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: yellow;
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.my-button2 {
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: yellow;
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.fondo-cielo {
+    background-image: url('../assets/images/cielo.jpg');
+    margin-top: -10%;
+}
+
+.warriorTitle {
+    color: $whiteColor;
+    text-shadow: #093b47b9 -6px 5px;
+    letter-spacing: 5px;
+    text-align: right;
+    font-family: 'Adumu';
+    font-size: 300%;
+    padding-bottom: 90%;
+    margin-right: 20%;
+}
+
+.warrior {
+    color: $whiteColor;
+    text-shadow: #093b47b9 -6px 5px;
+    letter-spacing: 5px;
+    text-align: left;
+    font-family: 'Adumu';
+    font-size: 250%;
+    margin-top: -80%;
+}
+
+.intro {
+    font-family: 'Adumu', sans-serif;
+    color: $whiteColor;
+    text-align: justify;
+    filter: drop-shadow(#0f0f0fb6 -3px 2px);
+    margin-top: -10%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.under_index {
+    background-image: url('../assets/images/under_index.png');
+    margin-top: -20%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+
+}
+
+.under_index2 {
+    background-color: #879D3C;
+    margin-top: -21%;
+    padding-bottom: 2%;
+    /* border: 1px solid cyan; */
+}

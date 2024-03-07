@@ -1,0 +1,380 @@
+/* VARIABLES */
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #00a5fb;
+}
+
+a {
+  color: #f1f1f1;
+  text-shadow: rgba(64, 122, 136, 0.7254901961) -3px 2px;
+  display: inline-block;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 150%;
+}
+a link:visited {
+  color: #f1f1f1;
+}
+
+body {
+  margin: 0;
+  background: #00a5fb;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+/* UTILITIES */
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.RobofrogLogo {
+  filter: drop-shadow(rgba(0, 0, 0, 0.5803921569) 5px 5px);
+  height: 12vh;
+  width: 12vh;
+  margin-top: -5%;
+}
+
+.RobofrogLogo:hover {
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+.DeliveryLogo {
+  filter: drop-shadow(#f1f1f1 -3px 2px);
+  padding-bottom: 2vh;
+  width: 50%;
+  margin-left: 30%;
+}
+
+.slogan {
+  color: #f1f1f1;
+  background: transparent;
+  text-align: center;
+  text-shadow: rgba(9, 59, 71, 0.7254901961) -6px 5px;
+  padding-top: 15%;
+  letter-spacing: 5px;
+  font-family: "Adumu";
+  font-size: 400%;
+  margin-left: -20%;
+}
+
+/* ----- ANIMATIONS ----- */
+#wobble {
+  /*Wobble Anim*/
+  animation-name: wobble;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 200ms;
+}
+
+@keyframes wobble {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-3px);
+  }
+  75% {
+    transform: translateY(3px);
+  }
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.robo-header {
+  /*padding: 10px 30px;*/
+  background: transparent;
+  margin-top: -2.5%;
+  padding-bottom: 10px;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+}
+
+.active-header {
+  background: rgba(44, 44, 44, 0.1);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+  height: 20%;
+}
+
+.navTab {
+  text-align: end;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #f1f1f1;
+  font-family: "Adumu", sans-serif;
+}
+
+.navItems {
+  filter: brightness(100%);
+  padding: 10px;
+}
+
+.navItems:hover {
+  filter: brightness(130%);
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+/* Footer */
+.myFooter {
+  padding: 10px 30px;
+  background: #093B47;
+  border-top: solid 5px #33CF1E;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.row #rsIconGroup {
+  width: 50%;
+  align-items: center;
+  padding-bottom: 1vh;
+}
+
+article #rsIcon {
+  transition-duration: 0.5s;
+  filter: brightness(75%);
+}
+article #rsIcon:hover {
+  filter: brightness(100%);
+  transform: rotateY(360deg);
+}
+
+.copyright {
+  font-family: "Adumu", sans-serif;
+  color: #f1f1f1;
+  text-align: center;
+  margin-right: 10vh;
+}
+
+.linesDeco {
+  width: 30%;
+  filter: drop-shadow(rgba(0, 0, 0, 0.5803921569) 5px 5px);
+  margin-left: 30vh;
+}
+
+.my-button1 {
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  background: yellow;
+  font-size: 2em;
+  cursor: pointer;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.my-button2 {
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  background: yellow;
+  font-size: 2em;
+  cursor: pointer;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.fondo-cielo {
+  background-image: url("../assets/images/cielo.jpg");
+  margin-top: -10%;
+}
+
+.warriorTitle {
+  color: #f1f1f1;
+  text-shadow: rgba(9, 59, 71, 0.7254901961) -6px 5px;
+  letter-spacing: 5px;
+  text-align: right;
+  font-family: "Adumu";
+  font-size: 300%;
+  padding-bottom: 90%;
+  margin-right: 20%;
+}
+
+.warrior {
+  color: #f1f1f1;
+  text-shadow: rgba(9, 59, 71, 0.7254901961) -6px 5px;
+  letter-spacing: 5px;
+  text-align: left;
+  font-family: "Adumu";
+  font-size: 250%;
+  margin-top: -80%;
+}
+
+.intro {
+  font-family: "Adumu", sans-serif;
+  color: #f1f1f1;
+  text-align: justify;
+  filter: drop-shadow(rgba(15, 15, 15, 0.7137254902) -3px 2px);
+  margin-top: -10%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.under_index {
+  background-image: url("../assets/images/under_index.png");
+  margin-top: -20%;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.under_index2 {
+  background-color: #879D3C;
+  margin-top: -21%;
+  padding-bottom: 2%;
+  /* border: 1px solid cyan; */
+}
+
+.aboutTitleLogo {
+  width: 40%;
+  filter: drop-shadow(rgba(34, 34, 34, 0.337254902) -5px 5px);
+  display: block;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.textoAbout {
+  font-family: "Shantell Sans", sans-serif;
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 400%;
+  filter: drop-shadow(rgba(34, 34, 34, 0.337254902) -3px 2px);
+}
+
+/* CAREERS FORM */
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Adumu";
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #04679c;
+  color: #f1f1f1;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Adumu";
+}
+
+input[type=submit]:hover {
+  background-color: #00a5fb;
+}
+
+form {
+  width: 50%;
+}
+
+.formBG {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding-top: 12vh;
+}
+
+label .formLabel {
+  font-family: "Adumu";
+  font-size: 250%;
+}
+label .formLabel#fileButton {
+  margin-right: 3%;
+}
+
+.logoStore {
+  width: 25%;
+  margin-left: 30%;
+  filter: drop-shadow(rgba(34, 34, 34, 0.337254902) -5px 7px);
+  margin-top: 40%;
+}
+
+.logoStore#switch {
+  width: 45%;
+  margin-top: 60%;
+}
+
+/* TRAILER PAGE */
+iframe {
+  aspect-ratio: 16/9;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: $mainColor;
+}
+a {
+    color: $whiteColor;
+    text-shadow: #407a88b9 -3px 2px;
+    display: inline-block;
+    color: $whiteColor;
+    text-decoration: none;
+    font-size: 150%;
+
+    link:visited{
+        color: $whiteColor;
+    }
+}
+
+body {
+    margin: 0;
+    background: $mainColor;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
