@@ -27,7 +27,7 @@
 
 .warriorTitle {
     color: $whiteColor;
-    text-shadow: #093b47b9 -6px 5px;
+    text-shadow: $textShadow -6px 5px;
     letter-spacing: 5px;
     text-align: right;
     font-family: 'Adumu';
@@ -38,7 +38,7 @@
 
 .warrior {
     color: $whiteColor;
-    text-shadow: #093b47b9 -6px 5px;
+    text-shadow: $textShadow -6px 5px;
     letter-spacing: 5px;
     text-align: left;
     font-family: 'Adumu';
@@ -50,7 +50,7 @@
     font-family: 'Adumu', sans-serif;
     color: $whiteColor;
     text-align: justify;
-    filter: drop-shadow(#0f0f0fb6 -3px 2px);
+    text-shadow: $textShadow -3px 2px;
     margin-top: -10%;
     width: 80%;
     margin-left: 10%;

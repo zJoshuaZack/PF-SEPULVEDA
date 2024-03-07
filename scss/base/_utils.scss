@@ -15,22 +15,24 @@
     align-items: center;
 }
 
+
 .RobofrogLogo {
-    filter: drop-shadow(#00000094 5px 5px);
+    filter: drop-shadow($logoShadow 5px 5px);
     height: 12vh;
     width: 12vh;
     margin-top: -5%;
-}
 
-.RobofrogLogo:hover {
-    animation-name: shake;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    cursor: pointer;
+    :hover {
+        animation-name: shake;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+        cursor: pointer;
+    }
+
 }
 
 .DeliveryLogo {
-    filter: drop-shadow($whiteColor -3px 2px);
+    filter: drop-shadow($logoShadow -3px 2px);
     padding-bottom: 2vh;
     width: 50%;
     margin-left: 30%;
@@ -40,7 +42,7 @@
     color: $whiteColor;
     background: transparent;
     text-align: center;
-    text-shadow: #093b47b9 -6px 5px;
+    text-shadow: $textShadow -6px 5px;
     padding-top: 15%;
     letter-spacing: 5px;
     font-family: 'Adumu';

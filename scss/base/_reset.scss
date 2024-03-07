@@ -11,7 +11,7 @@ main{
 }
 a {
     color: $whiteColor;
-    text-shadow: #407a88b9 -3px 2px;
+    text-shadow: $textShadow -3px 2px;
     display: inline-block;
     color: $whiteColor;
     text-decoration: none;

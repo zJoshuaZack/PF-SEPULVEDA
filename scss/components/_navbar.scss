@@ -8,11 +8,12 @@
 
 .navItems {
     filter: brightness(100%);
+    color: $whiteColor;
     padding: 10px;
 }
 
 .navItems:hover {
-    filter: brightness(130%);
+    filter: brightness(150%);
     animation-name: shake;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;

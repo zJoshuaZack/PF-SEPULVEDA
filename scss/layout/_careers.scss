@@ -24,7 +24,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #00a5fb;
+    background-color: #1588c5c7;
 }
 
 form {
@@ -32,7 +32,7 @@ form {
 }
 
 .formBG {
-    background-color: $whiteColor;
+    background-color: #00a5fb;
     border-radius: 5px;
     display: grid;
     place-items: center;
